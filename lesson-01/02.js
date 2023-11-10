@@ -1,5 +1,4 @@
 // code
-// Создай рандомное число при помощи
 
 let number = Math.floor(Math.random() * 100);
 
