@@ -1,3 +1,4 @@
 let iAm = 'я';
 let krasavchik = "красавчик!";
-console.log(iAm.toUpperCase() + ' ' + krasavchik);
+const result = iAm.toUpperCase() + ' ' + krasavchik;
+console.log(result);
