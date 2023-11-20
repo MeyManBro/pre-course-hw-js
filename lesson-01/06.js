@@ -1,8 +1,3 @@
 let str = "zzzzyzz";
-let letter = 'y';
+let result = (str.includes('y')) ? console.log("нашел") : console.log("заблудился");
 
-if (str.includes(letter)) {
-  console.log("нашел");
-} else {
-  console.log("заблудился");
-}
