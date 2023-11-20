@@ -1,5 +1,7 @@
 let str = "zzzzyzz";
-if (str.includes('y')) {
+let letter = 'y';
+
+if (str.includes(letter)) {
   console.log("нашел");
 } else {
   console.log("заблудился");
