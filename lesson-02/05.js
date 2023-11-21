@@ -1,10 +1,10 @@
 let passport = {
-  name: "Petr",
-  surname: "Petrov",
+  name: 'Petr',
+  surname: 'Petrov',
 };
 
 let passportNew = { ...passport };
-passportNew.name = "Ivan";
+passportNew.name = 'Ivan';
 
 console.log(passport);
 console.log(passportNew);
