@@ -2,8 +2,8 @@ let passport = {
   name: 'Petr',
   surname: 'Petrov',
 };
-
-let passportNew = { ...passport };
+let passportNew = {};
+Object.assign(passportNew, passport);
 passportNew.name = 'Ivan';
 
 console.log(passport);
