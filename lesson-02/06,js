@@ -7,3 +7,12 @@ let passportWithAddress = {
   }
 };
 
+console.log(passportWithAddress.address.country);
+
+let passportWithNeWAddress = {};
+for (let key in passportWithAddress) {
+  passportWithNeWAddress[key] = passportWithAddress[key];
+}
+passportWithNeWAddress.address.country = "Bobryisk";
+
+console.log(passportWithNeWAddress.address.country);
