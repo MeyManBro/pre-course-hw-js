@@ -3,10 +3,10 @@ let passport = {
   surname: 'Petrov',
 };
 
-console.log(passport);
+console.log(passport.name);
 
 let passportNew = {};
 Object.assign(passportNew, passport);
 passportNew.name = 'Ivan';
 
-console.log(passportNew);
+console.log(passportNew.name);
