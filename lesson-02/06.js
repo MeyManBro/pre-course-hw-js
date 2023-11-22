@@ -9,10 +9,8 @@ let passportWithAddress = {
 
 console.log(passportWithAddress.address.country);
 
-let passportWithNeWAddress = {};
-for (let key in passportWithAddress) {
-  passportWithNeWAddress[key] = passportWithAddress[key];
-}
+let passportWithNeWAddress = { ...passportWithAddress, address: { ...passportWithAddress.address } };
+
 passportWithNeWAddress.address.country = "Bobryisk";
 
 console.log(passportWithNeWAddress.address.country);
