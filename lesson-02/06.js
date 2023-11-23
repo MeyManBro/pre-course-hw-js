@@ -11,8 +11,11 @@ let passportWithAddress = {
 
 let passportWithNeWAddress = { ...passportWithAddress, address: { ...passportWithAddress.address } };
 
-passportWithNeWAddress.address.country = "Bobryisk";
+passportWithNeWAddress.address.city = "Bobryisk";
 
-console.log(passportWithAddress.address.country);
+let a = passportWithAddress.address.city;
+let b = passportWithNeWAddress.address.city
 
-console.log(passportWithNeWAddress.address.country);
+console.log(a);
+
+console.log(b);
