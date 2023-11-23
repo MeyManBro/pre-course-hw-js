@@ -7,8 +7,8 @@ let passportMarried = {
   }
 };
 
-let passportMarried2 = { ...добавь сюда  married: true, address: { ... } }
-passportMarried2.married = ...
+let passportMarried2 = { ...passportMarried.name, married: true, address: { ... } };
+passportMarried2.married = true;
 
 console.log(passportMarried);
 console.log(passportMarried2);

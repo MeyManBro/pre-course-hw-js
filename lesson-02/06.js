@@ -7,10 +7,12 @@ let passportWithAddress = {
   }
 };
 
-console.log(passportWithAddress.address.country);
+
 
 let passportWithNeWAddress = { ...passportWithAddress, address: { ...passportWithAddress.address } };
 
 passportWithNeWAddress.address.country = "Bobryisk";
+
+console.log(passportWithAddress.address.country);
 
 console.log(passportWithNeWAddress.address.country);
