@@ -61,5 +61,5 @@ const users = [
   }
 ];
 
-
-console.log(users.filter((el) => el.id % 2 === 0));
+let evenId = users.filter((el) => el.id % 2 === 0);
+console.log(evenId);
