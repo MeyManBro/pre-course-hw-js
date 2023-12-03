@@ -2,9 +2,9 @@ const words = ["яблоко", "банан", "апельсин", "манго", "
 
 function searchOrange() {
   if (words.indexOf("апельсин") === 2) {
-    return console.log('«Ура! нашел»');
+    return console.log('Ура! нашел');
   } else {
-    return console.log('«Придется поискать в другом магазине…»');
+    return console.log('Придется поискать в другом магазине…');
   }
 }
 
