@@ -4,6 +4,4 @@ const numbers = [
   [111, 200, 333, 400, 555],
 ];
 
-let result = numbers.map(el => el.filter(num => num % 2 === 0));
-
-console.log(result);
+console.log(numbers.map(el => el.filter(num => num % 2 === 0)));
